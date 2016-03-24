@@ -1,0 +1,6 @@
+rgb(22, 34, 82); navbar blue ---- 
+color:#a37e2c; --- rlx gold
+
+slider image size :   406 x 595
+slider2 image size :   467 x 594
+original bg -image  : 1400 x 730

@@ -1,0 +1,113 @@
+[
+	{
+	"name": "First Lift LFL Basic",
+	"description": "Basic type made with Polydioxanone '(PDO)' suture is widely used in skin rejuvenation and local firming purpose for various body and face areas",
+	"specified_areas": [
+
+		"Face and body skin reinforcement",
+		"Face shape strengthening",
+		"Periorbital area rejuvenation",
+		"Correction of purse wrinkles",
+		"Lip recontouring",
+		"Reinforcement of a medial part of the neck",
+		"Customized applications (treatment for muscles, lipolysis, acupuncture)",
+		"Body contouring"
+
+
+	],
+	"specifications": [
+
+		{
+			"size_of_needle": "31G 30mm",
+			"length_of_filament": "30mm",
+			"usp": "7-0"
+		}, {
+			"size_of_needle": "31G 30mm",
+			"length_of_filament": "30mm",
+			"usp": "7-0"
+		}, {
+			"size_of_needle": "31G 30mm",
+			"length_of_filament": "30mm",
+			"usp": "7-0"
+		}, {
+			"size_of_needle": "31G 30mm",
+			"length_of_filament": "30mm",
+			"usp": "7-0"
+		}, {
+			"size_of_needle": "31G 30mm",
+			"length_of_filament": "30mm",
+			"usp": "7-0"
+		}
+
+	]
+},//second full item 
+	{
+		"name":"First Lift LFL Screw",
+		"description":"Screw with spiral shape suture can lead to localized lifting and internal volumizing. And it widens spaces that the thread is contacted to the skin so that it allows more stimulation of collagen.",
+		"specified_areas":[
+			
+				"Double chin correction",
+					"Eyebrow lifting",
+					"Correction of linear wrinkles by internal volumizing",
+					"Improvement of a nasolabial triangle structure",
+					"Face shape correction",
+					"Bodycontouring"
+			
+		],
+		"specifications":[
+							
+			  "Needle":{
+						"Gauge":[
+									"26G", "27G", "29G"
+								], 
+						"Length":[
+									"60 mm", "50 mm", "40 mm"
+								  ] 
+						},
+			   "Filament":{ 
+							 "Length":[
+										"90 mm", "70 mm", "52 mm"
+		      				          ], 
+						     "USP":[
+										"5-0", "5-0", "6-0" 	
+								  ]
+						    }
+				
+		]		
+	}, // end of 2nd item
+	{
+		"name":"Barb II",
+		"description":"Barb II with bi directional cogs acts to hold the skin like double hooks when the thread is pulled. It is most powerful for any specific body and face areas.",
+		"specified_areas":[
+			
+					"Strengthening of the tissues relocated to the perfect position",
+					"Lifting of the middle and lower thirds of the face",
+					"Lifting of different body areas (combined with linear injections)",
+					"Insertion into lateral surfaces of the neck for lifting purposes",
+					"Body contouring + body lifting",
+					"Correction of gravitational ptosis in the middle and lower thirds of the face",
+					"Face shape correction",
+					"Lifting of the submental area and neck",
+					"Bodylifting"
+
+			
+		],
+		"specifications":[
+							
+			  "Needle":{
+						"Gauge":[
+									"23G", "23G", 	  "23G",    "21G",   "21G",   "21G",  "20G",   "19G"
+								],
+			  			"Length":[
+									"90 mm", "60 mm", "40 mm",  "90 mm", "60 mm", "40 mm", "90 mm", "90 mm" 
+								]
+					   },
+				"Filament":{
+								"Length":["150", "90", "50", "150", "90", "50", "150", "150"],
+					 			"USP":["4-0","4-0", "4-0", "3-0", "3-0", "3-0", "2-0", "1-0"]
+					      }
+				
+		]	
+	}
+	
+]

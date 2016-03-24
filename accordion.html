@@ -1,0 +1,108 @@
+<!doctype html>
+<html ng-app="ui.bootstrap.demo">
+  <head>
+    <!--<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-animate.js"></script>
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.2.4.js"></script>-->
+	  <script src="js/angular-1.4.8/angular.min.js"></script>
+	  <script src="js/angular-1.4.8/angular-animate.min.js"></script>
+	  <script src="js/ui-bootstrap-tpls-1.2.1.min.js"></script>
+	  
+    <script src="example.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+<div ng-controller="AccordionDemoCtrl">
+  <script type="text/ng-template" id="group-template.html">
+    <div class="panel {{panelClass || 'panel-default'}}">
+      <div class="panel-heading">
+        <h4 class="panel-title" style="color:#fa39c3">
+          <a href tabindex="0" class="accordion-toggle" ng-click="toggleOpen()" uib-accordion-transclude="heading"><span
+            ng-class="{'text-muted': isDisabled}">{{heading}}</span></a>
+        </h4>
+      </div>
+      <div class="panel-collapse collapse" uib-collapse="!isOpen">
+        <div class="panel-body" style="text-align: right" ng-transclude></div>
+      </div>
+    </div>
+  </script>
+
+ <!-- <p>
+    <button type="button" class="btn btn-default btn-sm" ng-click="status.open = !status.open">Toggle last panel</button>
+    <button type="button" class="btn btn-default btn-sm" ng-click="status.isFirstDisabled = ! status.isFirstDisabled">Enable / Disable first panel</button>
+  </p>-->
+
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" ng-model="oneAtATime">
+      Open only one at a time
+    </label>
+  </div>
+  <uib-accordion close-others="oneAtATime">
+    
+  
+     <uib-accordion-group is-open="status.open">
+      <uib-accordion-heading>
+        Benefits <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+      </uib-accordion-heading>
+       <div ng-repeat="item in items">{{item}}</div>
+    </uib-accordion-group>
+    
+     <uib-accordion-group is-open="status.open">
+      <uib-accordion-heading>
+        Features<i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+      </uib-accordion-heading>
+      
+				<ul>
+					<li>Ultra Thin Wall High Quality Needle</li>
+					<li>Qualified PDO thread</li>
+					<li>Patented</li>
+					<li>CE Class 3</li>
+					<li>High Market Share</li>
+				</ul>
+    </uib-accordion-group>
+    
+     <uib-accordion-group is-open="status.open">
+      <uib-accordion-heading>
+        Effects<i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+      </uib-accordion-heading>
+      
+				<ul>
+					<li>Lifting</li>
+					<li>Skin Rejuvenation (Tightening, Brightening)</li>
+					<li>Wrinkle Removal</li>
+					<li>Reduction of Cellulite</li>
+				</ul>
+    </uib-accordion-group>
+    <uib-accordion-group is-open="status.open">
+      <uib-accordion-heading>
+      Mechanism<i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+      </uib-accordion-heading>
+      
+				
+				<img src="../../images/pdo_mechanism_img.jpg" alt="PDO mechanism for the treatment " />
+				<ul>
+					<li>Ultra Thin Wall Needle allows big size of PDO to be inserted into the needle</li>
+					<li>Sharp/neat cutting edge by special grinding technology</li>
+					<li>Special coating with less resistance enables the needle to be inserted into the skin smoothly</li>
+				</ul>
+    </uib-accordion-group>
+    <uib-accordion-group is-open="status.open">
+      <uib-accordion-heading>
+        Technology<i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+      </uib-accordion-heading>
+      
+				
+				<img src="../../images/pdo_technology_img.jpg" />
+				<ul>
+					<li>Ultra Thin Wall Needle allows big size of PDO to be inserted into the needle</li>
+					<li>Sharp/neat cutting edge by special grinding technology</li>
+					<li>Special coating with less resistance enables the needle to be inserted into the skin smoothly</li>
+
+				</ul>
+    </uib-accordion-group>
+  </uib-accordion>
+</div>
+  </body>
+</html>

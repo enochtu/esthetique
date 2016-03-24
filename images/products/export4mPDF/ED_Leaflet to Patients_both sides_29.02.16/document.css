@@ -1,0 +1,17 @@
+﻿@charset "UTF-8"; * {margin:0; padding:0; text-indent:0; }
+ .s1 { color: #FFF; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
+ h1 { color: #FFF; font-family:"Myriad Pro", sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 17pt; }
+ .s2 { color: #FFF; font-family:"Myriad Pro Light", sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 14pt; }
+ .a { color: #1E355A; font-family:"Myriad Pro", sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 8.5pt; }
+ .s3 { color: #1E355A; font-family:"Myriad Pro", sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 8.5pt; }
+ h3 { color: #FFF; font-family:"Myriad Pro", sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 13pt; }
+ .s4 { color: #FFF; font-family:"Myriad Pro", sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 13pt; }
+ .s5 { color: #BCACC6; font-family:"Myriad Pro", sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 14pt; }
+ h4 { color: #58595B; font-family:"Myriad Pro", sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 9.5pt; }
+ .p, p { color: #58595B; font-family:"Myriad Pro", sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 9.5pt; margin:0pt; }
+ h2 { color: #F1BFD9; font-family:"Myriad Pro", sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 14pt; }
+ .s6 { color: #F6D8A1; font-family:"Myriad Pro", sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 14pt; }
+ .s7 { color: #B5DA9D; font-family:"Myriad Pro", sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 14pt; }
+ .s8 { color: #FFF; font-family:"Myriad Pro", sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 9pt; }
+ .s9 { color: #1E355A; font-family:"Myriad Pro", sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 6.5pt; }
+ .s10 { color: #58595B; font-family:"Myriad Pro", sans-serif; font-style: italic; font-weight: normal; text-decoration: none; font-size: 9pt; }

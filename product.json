@@ -1,0 +1,52 @@
+[
+	{
+		"name":"First Lift LFL Basic",
+		"description":"",
+		"specified_areas":[
+			
+				'Face and body skin reinforcement',
+				'Face shape strengthening',
+				'Periorbital area rejuvenation',
+				'Correction of purse wrinkles',
+				'Lip recontouring',
+				'Reinforcement of a medial part of the neck',
+				'Customized applications (treatment for muscles, lipolysis, acupuncture)',
+				'Body contouring'
+			
+			
+		],
+		"specifications":[
+					
+			   {"size_of_needle":"31G 30mm", "length_of_filament":"30mm", "usp":"7-0"},
+			   {"size_of_needle":"31G 30mm", "length_of_filament":"30mm", "usp":"7-0"},
+			   {"size_of_needle":"31G 30mm", "length_of_filament":"30mm", "usp":"7-0"}, 
+			   {"size_of_needle":"31G 30mm", "length_of_filament":"30mm", "usp":"7-0"}, 
+			   {"size_of_needle":"31G 30mm", "length_of_filament":"30mm", "usp":"7-0"} 
+				
+		]
+	},//second full item 
+	{
+		"name":"First Lift LFL Screw",
+		"description":"Screw with spiral shape suture can lead to localized lifting and internal volumizing. And it widens spaces that the thread is contacted to the skin so that it allows more stimulation of collagen.",
+		"specified_areas":[
+			
+				'Double chin correction',
+					'Eyebrow lifting',
+					'Correction of linear wrinkles by internal volumizing',
+					'Improvement of a nasolabial triangle structure',
+					'Face shape correction',
+					'Bodycontouring'
+			
+		],
+		"specifications":[
+							
+			  "Needle":["Gauge", "Length"],
+				"":["Length", "USP"]
+				
+		]		
+	}, // end of 2nd item
+	{
+		
+	}
+	
+]

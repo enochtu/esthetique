@@ -1,0 +1,2 @@
+rgb(22, 34, 82); navbar blue ---- 
+color:#a37e2c; --- rlx gold

@@ -1,0 +1,23 @@
+﻿@charset "UTF-8"; * {margin:0; padding:0; text-indent:0; }
+ h2 { color: #9F1F40; font-family:Tahoma, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 24pt; }
+ .s1 { color: #FFF; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 101pt; }
+ .s2 { color: #FFF; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 25.5pt; }
+ .s3 { color: #8A8C8E; font-family:Tahoma, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 10pt; }
+ h1 { color: #9F1F40; font-family:Tahoma, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 51.5pt; }
+ .s4 { color: #8A8C8E; font-family:"Lucida Sans", sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 31.5pt; }
+ h3 { color: #FFF; font-family:"Myriad Pro Light", sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 17pt; }
+ .s5 { color: #9F1F40; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
+ .s6 { color: #231F20; font-family:"Myriad Pro", sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt; }
+ .s7 { color: #231F20; font-family:"Myriad Pro", sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 11pt; }
+ .s8 { color: #231F20; font-family:"Myriad Pro Light", sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 8pt; }
+ .s9 { color: #FFF; font-family:"Myriad Pro Light", sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 7.5pt; }
+ h4 { color: #FFF; font-family:"Myriad Pro Light", sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 14.5pt; }
+ .s10 { color: #231F20; font-family:Tahoma, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 7pt; }
+ .s11 { color: #A6384B; font-family:"Myriad Pro", sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 7pt; }
+ .p, p { color: #231F20; font-family:"Myriad Pro", sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 7pt; margin:0pt; }
+ .s12 { color: #A6384B; font-family:"Myriad Pro Light", sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 7pt; }
+ .s13 { color: black; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 10pt; }
+ .s14 { color: black; font-family:"Myriad Pro", sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 10pt; }
+ .s15 { color: black; font-family:"Times New Roman", serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 9pt; }
+ .s16 { color: #231F20; font-family:"Lucida Sans", sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 9pt; }
+ .a { color: #231F20; font-family:"Lucida Sans", sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 9pt; }

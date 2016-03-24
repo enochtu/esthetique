@@ -1,0 +1,7 @@
+To do List
+-layout of pages completion 
+-- cookies notice 
+-- contact us form 
+-- application form for models.
+--scroller symbol and ..... see more / back to top 
+--- add video to About us under Esthetique dist
